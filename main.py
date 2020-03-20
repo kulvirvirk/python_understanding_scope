@@ -5,6 +5,10 @@ a = 1
 b = 2
 def some_function():
   b = 5
-  print(b)
+  print('b from function: ' + str(b))
   return b
+
+print(a)
+some_function()
+print('b outside function: ' + str(b))
 
